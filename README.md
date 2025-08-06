@@ -26,3 +26,10 @@
 | Project Name                 | Main Tech                                                                                                 | Description |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
 | **Internal Chatbot for Business** | - **Model LLM**: Gemma 3 12B IT  <br> - **Server**: vLLM <br> - **Type**: RAG <br> - **Vector DB**: ChromaDB <br> - **Model Embedding**: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 <br> - **Search Engine**: SearXNG <br> - **UI**: Vercel AI Chatbot (Next.js) | An internal chatbot designed for document query tasks using Markdown files to answer questions related to internal documentation. It utilizes the Gemma 3 LLM and is implemented in a RAG (Retrieval-Augmented Generation) architecture, with the main inference server powered by vLLM. |
+
+### Diffusion Model Voice Conversion
+- Undergraduate Thesis in 2024.
+
+| Project Name                 | Main Tech                                                                                                 | Description |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
+| **Diffusion Model Voice Conversion** | - **Diffusion voice model** <br> - **Hifi-gan** <br> - **Read-time-voice-clone**                 | - Graduation thesis on voice transformation while maintaining original speech content, applied to use cases like film dubbing. |
