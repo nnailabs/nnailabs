@@ -26,13 +26,13 @@
 | Project Name                 | Main Tech                                                                                                 | Description |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
 | **Internal Chatbot for Business** | - **Model LLM**: Gemma 3 12B IT  <br> - **Server**: vLLM <br> - **Type**: RAG <br> - **Vector DB**: ChromaDB <br> - **Model Embedding**: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 <br> - **Search Engine**: SearXNG <br> - **UI**: Vercel AI Chatbot (Next.js) | An internal chatbot designed for document query tasks using Markdown files to answer questions related to internal documentation. It utilizes the Gemma 3 LLM and is implemented in a RAG (Retrieval-Augmented Generation) architecture, with the main inference server powered by vLLM. |
-- ![vLLM](https://docs.vllm.ai/en/stable/)
-- ![Gemma3-12B-IT](https://www.kaggle.com/models/google/gemma-3/transformers)
-- ![Vector DB](https://www.trychroma.com/)
-- ![Model Embedding](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
-- ![Search Engine](https://github.com/searxng/searxng)
-- ![UI](https://github.com/vercel/ai-chatbot)
-
+- [vLLM](https://docs.vllm.ai/en/stable/)
+- [Gemma3-12B-IT](https://www.kaggle.com/models/google/gemma-3/transformers)
+- [Vector DB](https://www.trychroma.com/)
+- [Model Embedding](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
+- [Search Engine](https://github.com/searxng/searxng)
+- [UI](https://github.com/vercel/ai-chatbot)
+- ![Flow](image/Chatbot-RAG-Main.drawio.png)
 
 ### Diffusion Model Voice Conversion
 - Undergraduate Thesis in 2024.
