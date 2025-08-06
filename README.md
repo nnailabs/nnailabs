@@ -182,6 +182,6 @@ mv cloudflared-linux-amd64 cloudflared
 | Project Name                 | Main Tech                                                                                                 | Description |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
 | **EBook-App**               | - **Server Java Jakatar EE 8** <br> - **CSDL**: MySQL <br> - **UI**: Bootstrap 4                          | This is a personal e-commerce project developed with basic e-commerce features. |
-
-
-
+#### Java Jakatar EE 8 - JSP, Servlet, JDBC
+#### Link Project
+- [Link Project](https://github.com/nnailabs/EBook-App)
