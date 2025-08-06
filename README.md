@@ -131,7 +131,8 @@ mv cloudflared-linux-amd64 cloudflared
 - [Model Base](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
 #### Dataset
 - [VIVOS](https://www.kaggle.com/datasets/thinh127/vivos-vietnamese)
-
+#### Link project
+- [Link project](https://github.com/nnailabs/DiffusionVoiceVietNam)
 ---
 
 ### Waste classification system
@@ -140,11 +141,6 @@ mv cloudflared-linux-amd64 cloudflared
 | Project Name                 | Main Tech                                                                                                 | Description |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
 | **Waste classification system** | - **CNN** <br> - **Flask**: Server - **UI**: html, css, js                                             | Computer vision project for classifying waste types (plastic, metal, organic, paper) using CNN and YOLO algorithms. |
-
-
-
-
-
 
 
 
