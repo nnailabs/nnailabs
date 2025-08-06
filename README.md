@@ -133,15 +133,21 @@ mv cloudflared-linux-amd64 cloudflared
 - [VIVOS](https://www.kaggle.com/datasets/thinh127/vivos-vietnamese)
 #### Link project
 - [Link project](https://github.com/nnailabs/DiffusionVoiceVietNam)
+
 ---
+
 ### Diffusion-TTS-Single-Speaker-VietNam
 | Project Name                 | Main Tech                                                                                                 | Description |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
 | **Diffusion-TTS-Single-Speaker-VietNam** | - **Model Diffusion** <br> - **Hifi-gan**                                                    | This is a text-to-speech (TTS) project leveraging a diffusion-based model to generate high-quality audio from text with speed and precision. |
 - [Paper](https://grad-tts.github.io/)
 - [Model Base](https://github.com/huawei-noah/Speech-Backbones/tree/main/Grad-TTS)
+- [viMFA - Montreal Forced Aligner](https://github.com/v-nhandt21/ViMFA/tree/main)
+- [Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/)
 #### Dataset
 - [Dataset](https://huggingface.co/datasets/ntt123/infore/resolve/main/infore_16k_denoised.zip)
+#### Link project
+- [Link project](https://github.com/nnailabs/Diffusion-TTS-Single-Speaker-VietNam)
 
 ---
 ### Waste classification system
