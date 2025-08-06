@@ -122,7 +122,12 @@ mv cloudflared-linux-amd64 cloudflared
 - [viMFA - Montreal Forced Aligner](https://github.com/v-nhandt21/ViMFA/tree/main)
 - [Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/)
 #### Hifi-gan
-- 
+- [Paper](docx/2010.05646v2.pdf)
+- [Model Base](https://github.com/jik876/hifi-gan)
+#### Read-time-voice-clone
+- [Model Base](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
+#### Dataset
+- [VIVOS](https://www.kaggle.com/datasets/thinh127/vivos-vietnamese)
 
 ### Waste classification system
 - Computer vision group project in 2024.
