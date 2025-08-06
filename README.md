@@ -34,7 +34,7 @@
 - [Search Engine](https://github.com/searxng/searxng)
 - [UI](https://github.com/vercel/ai-chatbot)
 #### Flow Chatbot RAG.
-- ![Flow](image/Chatbot-RAG-Main.drawio.png)
+![Flow](image/Chatbot-RAG-Main.drawio.png)
 #### Help Fine tune models LLM (Gemma 3)
 - Select the topic for fine-tuning.
 - Collect text data related to the topic.
