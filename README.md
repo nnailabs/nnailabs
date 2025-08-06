@@ -49,6 +49,66 @@ You are a data design expert for fine-tuning the Gemma 3 model. You must always 
 Use the data below to create examples that are both creative and user-friendly.
 ```
 - Use Unsloth AI for fine-tuning [Unsloth](https://unsloth.ai/).
+#### Cài đặt searchXNG
+- Kiểm tra phiên bản docker xem có cài đặt chưa
+```docker --version```
+- Tải github chứa chương trình searchXNG.
+```
+git clone https://github.com/searxng/searxng-docker.git
+cd searxng-docker
+ ```
+- Thêm cấu hình vào setting.yml 
+```enable_cors: true```
+```
+search:
+  formats:
+    - html
+    - json
+```
+- Cách xem file setting.yml
+```cat settings.yml```
+- File setting.yml full có dạng
+```
+# see https://docs.searxng.org/admin/settings/settings.html#settings-use-default-settings
+use_default_settings: true
+server:
+  # base_url is defined in the SEARXNG_BASE_URL environment variable, see .env and docker-compose.yml
+  secret_key: "VTX0ooIIlCmcGGj59UdIABI5ACOEwy"  # change this!
+  limiter: false  # enable this when running the instance for a public usage on the internet
+  image_proxy: true
+  enable_cors: true
+ui:
+  static_use_hash: true
+redis:
+  url: redis://redis:6379/0
+search:
+  formats:
+    - html
+    - json
+```
+- Trong thư mục searxng-docker tạo file .env
+```SEARXNG_PORT=8080
+SEARXNG_BASE_URL=http://localhost:8080
+```
+- Chạy docker
+```docker-compose up -d```
+- Lệnh tắt và bật docker (Phục vụ cho khởi dộng lại docker)
+```cd ~/searxng-docker
+docker-compose down
+docker-compose up -d
+```
+
+## Cài đặt Cloudflared
+- Cài đặt Cloudflared.
+```wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
+chmod +x cloudflared-linux-amd64
+mv cloudflared-linux-amd64 cloudflared
+```
+- Di chuyển file vào /usr/local/bin để có thể chạy cloudflared từ bất kỳ đâu 
+```sudo mv cloudflared /usr/local/bin/```
+- Chạy Tunnel
+```cloudflared tunnel --url http://localhost:8000```
+* Lưu ý với Cloudflared: Đối với vllm thì sử dụng port 8000 còn đối với searXNG thì sử dụng port 8080.
 ### Diffusion Model Voice Conversion
 - Undergraduate Thesis in 2024.
 
