@@ -40,9 +40,9 @@
 - Collect text data related to the topic.
 - Dataset format for fine-tuning Gemma3 type jsonl: ```{"instruction": "content", "input": "content", "output": "content"}```
 - Note 1: ```
-- Instruction: There is always – for the model to understand what to do, it is a question or a request.
-- Input: Sometimes there is input data (text, questions, etc.).
-- Output: Training objective – the model to be generated, usually the answer to a question or request.
+Instruction: There is always – for the model to understand what to do, it is a question or a request.
+Input: Sometimes there is input data (text, questions, etc.).
+Output: Training objective – the model to be generated, usually the answer to a question or request.
 ```
 - Note 2: ```
 You are a data design expert for fine-tuning the Gemma 3 model. You must always generate data in the following structure: {"instruction": "content", "input": "content", "output": "content"}.
