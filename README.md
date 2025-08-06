@@ -18,14 +18,11 @@
 - **Model LLM**: Gemma, OpenAI GPT, Mistral, LLaMA, BERT, RAG pipeline.
 - **Language programming**: Python, Java, C/C++.
 
-## Persional Project
+## Personal Project
+
 ### Chatbot RAG
 - Development in 2025 at TQT GLOBAL TRADING CO., LTD
-| Project name | Main tech | Describe |
-| **Internal Chatbot for Business** |
-- Model LLM: Gemma3 12b it.
-- Server: vLLM.
-- Type: RAG.
-- Vector DB: ChromaDB.
-- UI: Vercel ai-chatbot(Next.JS)  |
-- An internal chatbot designed for document query tasks using Markdown files to answer questions related to internal documentation. It utilizes the Gemma 3 LLM and is implemented in a RAG (Retrieval-Augmented Generation) architecture, with the main inference server powered by vLLM. |
+
+| Project Name                 | Main Tech                                                                                                 | Description |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
+| **Internal Chatbot for Business** | - **Model LLM**: Gemma 3 12B IT  <br> - **Server**: vLLM <br> - **Type**: RAG <br> - **Vector DB**: ChromaDB <br> - **UI**: Vercel AI Chatbot (Next.js) | An internal chatbot designed for document query tasks using Markdown files to answer questions related to internal documentation. It utilizes the Gemma 3 LLM and is implemented in a RAG (Retrieval-Augmented Generation) architecture, with the main inference server powered by vLLM. |
