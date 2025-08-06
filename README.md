@@ -110,6 +110,9 @@ mv cloudflared-linux-amd64 cloudflared
 - Chạy Tunnel
 ```cloudflared tunnel --url http://localhost:8000```
 * Lưu ý với Cloudflared: Đối với vllm thì sử dụng port 8000 còn đối với searXNG thì sử dụng port 8080.
+
+---
+
 ### Diffusion Model Voice Conversion
 - Undergraduate Thesis in 2024.
 
@@ -128,6 +131,8 @@ mv cloudflared-linux-amd64 cloudflared
 - [Model Base](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
 #### Dataset
 - [VIVOS](https://www.kaggle.com/datasets/thinh127/vivos-vietnamese)
+
+---
 
 ### Waste classification system
 - Computer vision group project in 2024.
