@@ -134,7 +134,16 @@ mv cloudflared-linux-amd64 cloudflared
 #### Link project
 - [Link project](https://github.com/nnailabs/DiffusionVoiceVietNam)
 ---
+### Diffusion-TTS-Single-Speaker-VietNam
+| Project Name                 | Main Tech                                                                                                 | Description |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
+| **Diffusion-TTS-Single-Speaker-VietNam** | - **Model Diffusion** <br> - **Hifi-gan**                                                    | This is a text-to-speech (TTS) project leveraging a diffusion-based model to generate high-quality audio from text with speed and precision. |
+- [Paper](https://grad-tts.github.io/)
+- [Model Base](https://github.com/huawei-noah/Speech-Backbones/tree/main/Grad-TTS)
+#### Dataset
+- [Dataset](https://huggingface.co/datasets/ntt123/infore/resolve/main/infore_16k_denoised.zip)
 
+---
 ### Waste classification system
 - Computer vision group project in 2024.
 
