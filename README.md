@@ -176,3 +176,12 @@ mv cloudflared-linux-amd64 cloudflared
 
 ---
 
+### EBook-App
+- Project ecommerce develop 2024.
+
+| Project Name                 | Main Tech                                                                                                 | Description |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
+| **EBook-App**               | - **Server Java Jakatar EE 8** <br> - **CSDL**: MySQL <br> - **UI**: Bootstrap 4                          | This is a personal e-commerce project developed with basic e-commerce features. |
+
+
+
