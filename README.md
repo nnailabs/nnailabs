@@ -163,5 +163,16 @@ mv cloudflared-linux-amd64 cloudflared
 - **ResNet**:
 - **MobileNet**: 
 #### YOLOv8
-- []
+- [Paper](docx/2408.15857v1.pdf)
+- [Model Base](https://github.com/autogyro/yolo-V8)
+#### Dataset
+- 500 images Metal.
+- 500 images Plastic.
+- 500 images Paper.
+- 500 images Organic.
+#### Label Studio
+- [Label Studio](https://labelstud.io/)
+- Label Studio is used for image annotation, where labels involve object bounding (region-based labeling).
+
+---
 
