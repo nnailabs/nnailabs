@@ -36,8 +36,19 @@
 #### Flow Chatbot RAG.
 - ![Flow](image/Chatbot-RAG-Main.drawio.png)
 #### Help Fine tune models LLM (Gemma 3)
-- 
-
+- Select the topic for fine-tuning.
+- Collect text data related to the topic.
+- Dataset format for fine-tuning Gemma3 type jsonl: ```{"instruction": "content", "input": "content", "output": "content"}```
+- Note 1: ```
+- Instruction: There is always – for the model to understand what to do, it is a question or a request.
+- Input: Sometimes there is input data (text, questions, etc.).
+- Output: Training objective – the model to be generated, usually the answer to a question or request.
+```
+- Note 2: ```
+You are a data design expert for fine-tuning the Gemma 3 model. You must always generate data in the following structure: {"instruction": "content", "input": "content", "output": "content"}.
+Use the data below to create examples that are both creative and user-friendly.
+```
+- Use Unsloth AI for fine-tuning [Unsloth](https://unsloth.ai/).
 ### Diffusion Model Voice Conversion
 - Undergraduate Thesis in 2024.
 
