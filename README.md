@@ -16,6 +16,7 @@
 - **Computer Vision**: YOLOv5/v8, CNN, Image Classification & Object Detection.
 - **Tppls**: Git, Github, Docker.
 - **Model LLM**: Gemma, OpenAI GPT, Mistral, LLaMA, BERT, RAG pipeline.
+- **Fine-tuning LLMs**: Unsloth AI, LoRA, QLoRA.
 - **Language programming**: Python, Java, C/C++.
 
 ## Personal Project
@@ -32,8 +33,10 @@
 - [Model Embedding](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
 - [Search Engine](https://github.com/searxng/searxng)
 - [UI](https://github.com/vercel/ai-chatbot)
-- Flow Chatbot RAG.
+#### Flow Chatbot RAG.
 - ![Flow](image/Chatbot-RAG-Main.drawio.png)
+#### Help Fine tune models LLM (Gemma 3)
+- 
 
 ### Diffusion Model Voice Conversion
 - Undergraduate Thesis in 2024.
