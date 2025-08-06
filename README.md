@@ -158,6 +158,10 @@ mv cloudflared-linux-amd64 cloudflared
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
 | **Waste classification system** | - **CNN** <br> - **Flask**: Server - **UI**: html, css, js                                             | Computer vision project for classifying waste types (plastic, metal, organic, paper) using CNN and YOLO algorithms. |
 #### CNN Model
-- 
-
+- **LeNet-5**: 
+- **AlexNet**:
+- **ResNet**:
+- **MobileNet**: 
+#### YOLOv8
+- []
 
