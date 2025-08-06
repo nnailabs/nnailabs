@@ -33,3 +33,20 @@
 | Project Name                 | Main Tech                                                                                                 | Description |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
 | **Diffusion Model Voice Conversion** | - **Diffusion voice model** <br> - **Hifi-gan** <br> - **Read-time-voice-clone**                 | This is my graduation thesis on Vietnamese voice conversion, aiming to change the speaker's voice while preserving the original words in the conversation. The system has practical applications such as film dubbing, and child-focused apps that allow children to hear stories in their parents' voices, etc. |
+
+
+### Waste classification system
+- Computer vision group project in 2024.
+
+| Project Name                 | Main Tech                                                                                                 | Description |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
+| **Waste classification system** | - **CNN** <br> - **Flask**: Server - **UI**: html, css, js                                             | Computer vision project for classifying waste types (plastic, metal, organic, paper) using CNN and YOLO algorithms. |
+
+
+
+
+
+
+
+
+
