@@ -117,7 +117,12 @@ mv cloudflared-linux-amd64 cloudflared
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|-------------|
 | **Diffusion Model Voice Conversion** | - **Diffusion voice model** <br> - **Hifi-gan** <br> - **Read-time-voice-clone**                 | This is my graduation thesis on Vietnamese voice conversion, aiming to change the speaker's voice while preserving the original words in the conversation. The system has practical applications such as film dubbing, and child-focused apps that allow children to hear stories in their parents' voices, etc. |
 #### Diffusion voice model
--
+- [Paper](docx/2109.13821v2.pdf)
+- [Model Base](https://github.com/huawei-noah/Speech-Backbones/tree/main/DiffVC)
+- [viMFA - Montreal Forced Aligner](https://github.com/v-nhandt21/ViMFA/tree/main)
+- [Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/)
+#### Hifi-gan
+- 
 
 ### Waste classification system
 - Computer vision group project in 2024.
