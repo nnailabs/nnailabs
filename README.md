@@ -32,6 +32,7 @@
 - [Model Embedding](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
 - [Search Engine](https://github.com/searxng/searxng)
 - [UI](https://github.com/vercel/ai-chatbot)
+- Flow Chatbot RAG.
 - ![Flow](image/Chatbot-RAG-Main.drawio.png)
 
 ### Diffusion Model Voice Conversion
