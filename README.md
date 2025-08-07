@@ -13,8 +13,8 @@
 ## Knowledge
 - **Machine Learning / Deep Learning**: PyTorch, TensorFlow, HuggingFace Transformers.
 - **Natural language processing(NLP)**: LLM, Tokenization, Named Entity Recognition, Text Generation, Fine-tuning LLMs.
-- **Computer Vision**: YOLOv5/v8, CNN, Image Classification & Object Detection.
-- **Tppls**: Git, Github, Docker.
+- **Computer Vision**: YOLOv8, CNN, Image Classification & Object Detection.
+- **Tools**: Git, Github, Docker.
 - **Model LLM**: Gemma, OpenAI GPT, Mistral, LLaMA, BERT, RAG pipeline.
 - **Fine-tuning LLMs**: Unsloth AI, LoRA, QLoRA.
 - **Language programming**: Python, Java, C/C++.
